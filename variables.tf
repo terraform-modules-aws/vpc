@@ -43,10 +43,16 @@ variable "public_subnet_tags" {
   default     = {}
 }
 
+variable "public_route_table_tags" {
+  description = "Additional tags for the public route tables"
+  default     = {}
+}
+
 variable "private_subnets" {
   description = "A list of private subnets inside the VPC"
   default     = []
 }
+
 
 variable "private_subnet_tags" {
   description = "Additional tags for the private subnets"
