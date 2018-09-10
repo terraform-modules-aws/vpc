@@ -53,7 +53,6 @@ variable "private_subnets" {
   default     = []
 }
 
-
 variable "private_subnet_tags" {
   description = "Additional tags for the private subnets"
   default     = {}
